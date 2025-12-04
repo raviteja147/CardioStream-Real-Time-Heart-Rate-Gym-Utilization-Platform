@@ -14,7 +14,7 @@ and produces curated analytical datasets such as **Workout BPM Summary** and **G
 
 ## 📌 Problem Statement & Requirements
 
-![Problem statement and source events](images/problem-statement.png)
+![Problem statement and source events](images/problem-statement.jpeg)
 
 The goal is to:
 
@@ -28,7 +28,7 @@ The goal is to:
 
 ## 🏗️ High-Level Architecture
 
-![Lakehouse architecture on ADLS + Databricks](images/lakehouse-architecture.png)
+![Lakehouse architecture on ADLS + Databricks](images/lakehouse-architecture.jpeg)
 
 The Lakehouse is implemented on **Azure Databricks + ADLS Gen2** and logically structured as:
 
@@ -45,7 +45,7 @@ The Lakehouse is implemented on **Azure Databricks + ADLS Gen2** and logically s
 
 ## 🔄 End-to-End Data Flow
 
-![End-to-end data flow and tables](images/data-model.png)
+![End-to-end data flow and tables](images/data-model.jpeg)
 
 1. **Registration (1)**  
    - Users register via an app; events are stored in **Azure SQL**.
@@ -77,7 +77,7 @@ The Lakehouse is implemented on **Azure Databricks + ADLS Gen2** and logically s
 
 ### 1. Workout BPM Summary (Gold)
 
-![Workout BPM Summary sample](images/workout-bpm-summary.png)
+![Workout BPM Summary sample](images/workout-bpm-summary.jpeg)
 
 The **Workout BPM Summary** table aggregates heart-rate readings at the workout level.  
 Typical columns include:
@@ -99,7 +99,7 @@ This dataset supports use cases such as:
 
 ### 2. Gym Summary (Gold)
 
-![Gym Summary sample](images/gym-summary.png)
+![Gym Summary sample](images/gym-summary.jpeg)
 
 The **Gym Summary** table aggregates per-gym usage metrics per day.  
 Typical columns include:
